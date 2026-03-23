@@ -3,7 +3,6 @@ project:
 
 website:
   title: "Talks"
-  site-url: https://falfaro.xyz/talks/
   favicon: 'images/usm.png'
   image: 'images/doberman.png'
   page-footer:
