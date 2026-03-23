@@ -1,0 +1,57 @@
+project:
+  type: website
+
+website:
+  title: "Talks"
+  site-url: https://falfaro.xyz/talks/
+  favicon: 'images/usm.png'
+  image: 'images/doberman.png'
+  page-footer:
+    left: "Website creado con [Quarto](https://quarto.org/) por Francisco Alfaro. Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/DTD-USM
+      - icon: linkedin
+        href: https://www.linkedin.com/school/usantamaria/
+      - icon: globe
+        href: https://transformaciondigital.usm.cl/dtd/
+
+  navbar:
+    logo: /images/usm.png
+    right:
+      - icon: github
+        href: https://github.com/DTD-USM
+      - icon: linkedin
+        href: https://www.linkedin.com/school/usantamaria/
+      - icon: globe
+        href: https://transformaciondigital.usm.cl/dtd/
+
+
+lang: es
+
+format:
+  html:
+    smooth-scroll: true
+    theme:
+      - pulse
+      - custom.scss
+    link-external-icon: false
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
+
+
+editor: visual
+
+comments:
+  giscus:
+    repo: Seth-Nut/talks
+
+execute:
+  freeze: true
+
+filters:
+  - webr
+  - pyodide

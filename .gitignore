@@ -47,3 +47,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+/.quarto/
+_site/
+.venv/
+.vscode/
+.quarto/
+datacuber/
+hello-quarto/
+usm_dtd/
+comunidad_2025/

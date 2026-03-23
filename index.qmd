@@ -1,0 +1,21 @@
+---
+title: "🎓 Presentaciones"
+format:
+  html:
+    toc: false
+---
+
+# Lista de Presentaciones
+
+¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
+
+## Diplomados
+
+::: card
+### Feria de Software (INF228)
+
+Agentes de inteligencia artificial y gestión del cambio tecnológico en el contexto universitario.\
+**Presentaciones:** [Charla-20260326](informatica/inf228-20260326.html) 
+:::
+
+
