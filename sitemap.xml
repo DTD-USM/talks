@@ -1,59 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://falfaro.xyz/talks/usm_dtd/semana_03.html</loc>
-    <lastmod>2026-03-23T00:31:51.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/usm_dtd/semana_01.html</loc>
-    <lastmod>2026-03-23T00:31:46.504Z</lastmod>
-  </url>
-  <url>
     <loc>https://falfaro.xyz/talks/informatica/inf228-20260326.html</loc>
-    <lastmod>2026-03-23T02:36:10.244Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/hello-quarto/presentacion_uah.html</loc>
-    <lastmod>2026-02-11T00:24:08.495Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/hello-quarto/presentacion.html</loc>
-    <lastmod>2026-02-11T00:24:08.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/datacuber/lab-0.html</loc>
-    <lastmod>2025-11-26T23:48:30.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/datacuber/clase-0.html</loc>
-    <lastmod>2026-02-11T14:31:29.664Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/comunidad_2025/presentacion_mes13.html</loc>
-    <lastmod>2026-03-23T00:37:43.239Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/datacuber/clase-2.html</loc>
-    <lastmod>2026-02-11T14:37:54.079Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/hello-quarto/index.html</loc>
-    <lastmod>2026-03-23T00:23:34.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/hello-quarto/presentacion_pycon.html</loc>
-    <lastmod>2026-02-11T00:24:08.494Z</lastmod>
+    <lastmod>2026-03-23T02:35:57.797Z</lastmod>
   </url>
   <url>
     <loc>https://falfaro.xyz/talks/index.html</loc>
-    <lastmod>2026-03-23T02:36:09.290Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/usm_dtd/agentes-presentacion.html</loc>
-    <lastmod>2026-03-22T23:45:42.747Z</lastmod>
-  </url>
-  <url>
-    <loc>https://falfaro.xyz/talks/usm_dtd/semana_02.html</loc>
-    <lastmod>2026-02-27T00:03:24.862Z</lastmod>
+    <lastmod>2026-03-23T02:35:57.344Z</lastmod>
   </url>
 </urlset>
