@@ -1,1 +1,1 @@
-Sitemap: https://falfaro.xyz/talks/sitemap.xml
+Sitemap: https://DTD-USM.github.io/talks/sitemap.xml
