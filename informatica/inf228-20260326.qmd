@@ -15,16 +15,38 @@ filters:
   - quarto-ext/shinylive
 ---
 
-##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+##  {#inf228 data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
 
 
 [Ya no programas solo]{.custom-title}
 [Cómo usar agentes de IA en tu proyecto]{.custom-subtitle}
 
-[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
+<br>
 
-[<https://dtd.com/talks>]{.custom-url}
+[Francisco Alfaro Medina <br> Valeska Canales Pozo <br> Mario Navarrete Purcell]{.custom-author}
+
+
+
+------------------------------------------------------------------------
+
+##  { background-opacity="0.25" transition="zoom"}
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="images/dtd.html" width="1200" height="530" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+![](images/dtd.png){ .fade-in-then-out fig-align="center" width="80%"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
 
 ##  Programar es fácil { background-opacity="0.25" transition="zoom"}
 
@@ -35,7 +57,7 @@ filters:
 
 ------------------------------------------------------------------------
 
-## Pero ... todo lo demás { background-opacity="0.25" transition="zoom"}
+## Pero ... todo lo demás { background-opacity="0.25" transition="fade"}
 
 
 <br>
@@ -46,7 +68,7 @@ filters:
 -   debug
 -   arquitectura\
 -   documentación\
--   pruebas\
+-   test unitarios\
 -   organizar ideas\
 -   ...
 -   *(y mil cosas más)*
@@ -60,7 +82,7 @@ filters:
 ------------------------------------------------------------------------
 
 
-## Y lo estás haciendo solo { background-opacity="0.25" transition="zoom"}
+## Y lo estás haciendo solo { background-opacity="0.25" transition="fade"}
 
 <br>
 
@@ -189,7 +211,7 @@ Compites contra developers con IA
 <br>
 
 ::: r-stack
-![](images/github-education.png){.fragment .fade-in-then-out fig-align="center"}
+![](images/github-education.png){.fade-in-then-out fig-align="center"}
 
 ![](images/cursor-education.png){.fragment .fade-in-then-out fig-align="center"}
 
@@ -198,15 +220,12 @@ Compites contra developers con IA
 
 
 
-------------------------------------------------------------------------
-
-
 
 
 # <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
 
-## ¿Qué es un Agente AI? { background-opacity="0.25" transition="fade"}
+## ¿Qué es un Agente AI? { background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
 ![](images/agentes1.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
@@ -219,7 +238,7 @@ Compites contra developers con IA
 
 
 ::: r-stack
-![](images/ai-agent.gif){.fragment .fade-in-then-out fig-align="center" width="55%"}
+![](images/ai-agent.gif){ .fade-in-then-out fig-align="center" width="55%"}
 
 :::
 
@@ -227,21 +246,10 @@ Compites contra developers con IA
 ##  {background-opacity="0.25" transition="fade"}
 
 ::: r-stack
-![](images/agentes-diagrama.jpg){.fragment .fade-in-then-out fig-align="center" width="70%"}
-
-![](images/agentes00.jpeg){.fragment fig-align="center"} 
-
+![](images/agentes-diagrama.jpg){ .fade-in-then-out fig-align="center" width="70%"}
 
 :::
 
-
-## ¿Qué es Cursor? { background-opacity="0.25" transition="fade"}
-
-<br>
-
-::: {style="text-align: center;" .fragment}
-<iframe src="images/cursor.html" width="1200px" height="800px"></iframe>
-:::
 
 
 ## Pequeño Ejemplo { background-opacity="0.25" transition="fade"}
@@ -251,6 +259,15 @@ Compites contra developers con IA
 ![](images/demotime.gif){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
 :::
+
+
+## {background-opacity="0.25" transition="fade"}
+
+<br><br>
+
+<iframe src="images/conclusiones.html" width="1200" height="530" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
 
 
 
@@ -269,13 +286,13 @@ Compites contra developers con IA
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/SHNh4LEJpfWSvZRk7)
+👏 Responder [encuesta](https://forms.gle/M28GmSXVuisTw8Lt9)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_mes13.png){width="400"}
+![](images/qr_inf228.png){width="400"}
 :::
 :::
 
