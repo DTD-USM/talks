@@ -1,0 +1,92 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .slide {
+    background: #fff;
+    border-radius: 12px;
+    border: 0.5px solid var(--color-border-tertiary);
+    padding: 2.8rem 3.5rem 2.2rem;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .top { display: flex; flex-direction: column; gap: 0.4rem; }
+  .eyebrow { font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-text-tertiary); font-weight: 600; }
+  .title { font-size: 2rem; font-weight: 800; color: var(--color-text-primary); letter-spacing: -0.02em; line-height: 1.1; }
+
+  .cards { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 0.75rem; }
+  .card { border: 1.5px solid var(--color-border-secondary); border-radius: 10px; padding: 1rem; display: flex; flex-direction: column; gap: 0.45rem; }
+  .card-icon { font-size: 1.4rem; line-height: 1; margin-bottom: 0.1rem; }
+  .card-title { font-size: 0.82rem; font-weight: 800; color: var(--color-text-primary); line-height: 1.25; }
+  .card-body { font-size: 0.64rem; color: var(--color-text-secondary); line-height: 1.6; }
+  .c1 { border-top: 3px solid #1a1aff; }
+  .c2 { border-top: 3px solid #111; }
+  .c3 { border-top: 3px solid #e8a020; }
+  .c4 { border-top: 3px solid #555; }
+
+  .bottom {
+    border-top: 1px solid var(--color-border-tertiary);
+    padding-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .loop-col { display: flex; flex-direction: column; gap: 0.5rem; }
+  .loop-label { font-size: 0.6rem; color: var(--color-text-tertiary); letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; }
+  .loop-row { display: flex; align-items: center; gap: 0.35rem; flex-wrap: nowrap; }
+  .step { font-size: 0.6rem; font-weight: 700; padding: 0.22rem 0.55rem; border-radius: 20px; background: var(--color-background-secondary); color: var(--color-text-primary); border: 1px solid var(--color-border-secondary); white-space: nowrap; }
+  .step.highlight { background: #1a1aff; color: #fff; border-color: #1a1aff; }
+  .arrow { font-size: 0.6rem; color: var(--color-text-tertiary); flex-shrink: 0; }
+  .takeaway { font-size: 0.88rem; font-weight: 800; color: var(--color-text-primary); line-height: 1.4; text-align: right; flex-shrink: 0; white-space: nowrap; }
+  .takeaway em { font-style: normal; border-bottom: 3px solid #1a1aff; }
+</style>
+
+<div class="slide">
+  <div class="top">
+    <div class="eyebrow">Conclusiones · Ya no programas solo</div>
+    <div class="title">Lo que se lleva de hoy</div>
+  </div>
+
+  <div class="cards">
+    <div class="card c1">
+      <div class="card-icon">🤝</div>
+      <div class="card-title">La IA es un colaborador en tu flujo</div>
+      <div class="card-body">Como GitHub o Docker — no reemplaza el trabajo, lo integra. El agente percibe, razona, ejecuta y evalúa mientras tú revisas.</div>
+    </div>
+    <div class="card c2">
+      <div class="card-icon">🧠</div>
+      <div class="card-title">El skill sigue siendo saber qué preguntar</div>
+      <div class="card-body">Stack Overflow te enseñó eso. Con agentes es igual: contexto claro + pregunta precisa = resultado útil.</div>
+    </div>
+    <div class="card c3">
+      <div class="card-icon">⚡</div>
+      <div class="card-title">Compites contra devs con IA, no sin ella</div>
+      <div class="card-body">Mismos conocimientos, distinto tiempo. Cursor, Copilot y Azure están disponibles hoy con tu @usm.cl — gratis.</div>
+    </div>
+    <div class="card c4">
+      <div class="card-icon">🧑‍💻</div>
+      <div class="card-title">Tu rol cambia: prompt y revisión, no cada línea</div>
+      <div class="card-body">Escribes el prompt, evalúas el diff. El agente itera solo si hay errores. Tú eres el arquitecto.</div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="loop-col">
+      <div class="loop-label">El loop del agente</div>
+      <div class="loop-row">
+        <span class="step">👀 Percibe</span>
+        <span class="arrow">→</span>
+        <span class="step">🧠 Razona</span>
+        <span class="arrow">→</span>
+        <span class="step highlight">⚡ Ejecuta</span>
+        <span class="arrow">→</span>
+        <span class="step">🔍 Evalúa</span>
+        <span class="arrow">→</span>
+        <span class="step">✅ Entrega</span>
+      </div>
+    </div>
+    <div class="takeaway">No es aprender IA.<br>Es <em>trabajar distinto</em>.</div>
+  </div>
+</div>

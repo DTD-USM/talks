@@ -1,0 +1,291 @@
+
+<style>
+  .slide {
+    background: #003366;
+    border-radius: 12px;
+    padding: 2.5rem 3rem;
+    min-height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 0 3rem;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide::before {
+    content: "DTD";
+    position: absolute;
+    right: -1rem;
+    bottom: -1.5rem;
+    font-size: 9rem;
+    font-weight: 900;
+    color: rgba(255,255,255,0.04);
+    letter-spacing: -0.05em;
+    pointer-events: none;
+    line-height: 1;
+  }
+
+  .slide-header {
+    grid-column: 1 / -1;
+    margin-bottom: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .slide-header h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .slide-header h2 strong {
+    font-weight: 700;
+    color: #e8a020;
+  }
+  .accent-dot {
+    width: 8px;
+    height: 8px;
+    background: #e8a020;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* LEFT COLUMN */
+  .left-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .description {
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.75);
+    border-left: 3px solid #e8a020;
+    padding-left: 0.9rem;
+  }
+  .description strong { color: #fff; font-weight: 500; }
+  .founded {
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.04em;
+  }
+
+  .pillars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 0.3rem;
+  }
+  .pillar {
+    background: rgba(255,255,255,0.06);
+    border: 0.5px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.65rem;
+    color: rgba(255,255,255,0.7);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .pillar-icon {
+    width: 20px;
+    height: 20px;
+    background: rgba(232,160,32,0.15);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .pillar-icon svg { width: 11px; height: 11px; }
+  .pillar span { color: #fff; font-weight: 500; }
+
+  /* RIGHT COLUMN — team */
+  .right-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .team-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.35);
+    margin-bottom: 0.2rem;
+  }
+  .team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  .member {
+    background: rgba(255,255,255,0.05);
+    border: 0.5px solid rgba(255,255,255,0.09);
+    border-radius: 8px;
+    padding: 0.55rem 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+  .member.director {
+    background: rgba(232,160,32,0.1);
+    border-color: rgba(232,160,32,0.25);
+    grid-column: 1 / -1;
+  }
+  .avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: rgba(255,255,255,0.7);
+    flex-shrink: 0;
+    letter-spacing: 0.02em;
+  }
+  .member.director .avatar {
+    background: rgba(232,160,32,0.25);
+    color: #e8a020;
+    width: 32px;
+    height: 32px;
+    font-size: 0.65rem;
+  }
+  .member-info { min-width: 0; }
+  .member-name {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .member.director .member-name { color: #e8a020; font-size: 0.7rem; }
+  .member-role {
+    font-size: 0.55rem;
+    color: rgba(255,255,255,0.4);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>
+
+<div class="slide">
+  <div class="slide-header">
+    <div class="accent-dot"></div>
+    <h2>¿Quiénes <strong>somos</strong>?</h2>
+  </div>
+
+  <div class="left-col">
+    <p class="description">
+      Unidad creada en 2022 responsable de <strong>definir y ejecutar la estrategia de transformación digital</strong> de la USM, asegurando que la institución se mantenga a la vanguardia tecnológica.
+    </p>
+    <p class="founded">Decreto de Rectoría 267/2022 · Octubre 2022</p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 9L4 6L7 8L11 3" stroke="#e8a020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div><span>Roadmap</span> tecnológico</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="4.5" stroke="#e8a020" stroke-width="1.2"/>
+            <path d="M6 3.5v2.5l1.5 1.5" stroke="#e8a020" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div><span>Gobierno</span> de datos</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1.5" y="3" width="3.5" height="3.5" rx="1" stroke="#e8a020" stroke-width="1.2"/>
+            <rect x="7" y="5.5" width="3.5" height="3.5" rx="1" stroke="#e8a020" stroke-width="1.2"/>
+            <path d="M5 4.75h1.5v2H5" stroke="#e8a020" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div><span>Modelos</span> analíticos</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 1.5C3.5 1.5 1.5 3.5 1.5 6S3.5 10.5 6 10.5" stroke="#e8a020" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M8 6c0-1.1-.9-2-2-2" stroke="#e8a020" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M9 8.5l1.5 1.5M10.5 8.5L9 10" stroke="#e8a020" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div><span>Gestión</span> del cambio</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-col">
+    <div class="team-label">Equipo</div>
+    <div class="team-grid">
+      <div class="member director">
+        <div class="avatar">MN</div>
+        <div class="member-info">
+          <div class="member-name">Mario Navarrete</div>
+          <div class="member-role">Director DTD</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">SG</div>
+        <div class="member-info">
+          <div class="member-name">Soledad González</div>
+          <div class="member-role">Scrum Master</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">MS</div>
+        <div class="member-info">
+          <div class="member-name">Mauricio Saldivia</div>
+          <div class="member-role">Gob. de Datos</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">FA</div>
+        <div class="member-info">
+          <div class="member-name">Francisco Alfaro</div>
+          <div class="member-role">Análisis y Modelación</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">AR</div>
+        <div class="member-info">
+          <div class="member-name">Alejandra Reinoso</div>
+          <div class="member-role">Arquitecta Software</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">VC</div>
+        <div class="member-info">
+          <div class="member-name">Valeska Canales</div>
+          <div class="member-role">Data Scientist</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">JZ</div>
+        <div class="member-info">
+          <div class="member-name">José Zúñiga</div>
+          <div class="member-role">Profesional Analista</div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">ARo</div>
+        <div class="member-info">
+          <div class="member-name">Aníbal Romo</div>
+          <div class="member-role">Gestión del Cambio</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

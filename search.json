@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "informatica/inf228-20260326.html#hello-quarto-title",
-    "href": "informatica/inf228-20260326.html#hello-quarto-title",
+    "objectID": "informatica/inf228-20260326.html#inf228",
+    "href": "informatica/inf228-20260326.html#inf228",
     "title": "Talks",
     "section": "",
-    "text": "Ya no programas solo Cómo usar agentes de IA en tu proyecto\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://dtd.com/talks"
+    "text": "Ya no programas solo Cómo usar agentes de IA en tu proyecto\n\nFrancisco Alfaro Medina  Valeska Canales Pozo  Mario Navarrete Purcell"
   },
   {
     "objectID": "informatica/inf228-20260326.html#programar-es-fácil",
@@ -18,7 +18,7 @@
     "href": "informatica/inf228-20260326.html#pero-todo-lo-demás",
     "title": "Talks",
     "section": "Pero … todo lo demás",
-    "text": "Pero … todo lo demás\n\n\n\n\ndebug\narquitectura\n\ndocumentación\n\npruebas\n\norganizar ideas\n\n…\n(y mil cosas más)"
+    "text": "Pero … todo lo demás\n\n\n\n\ndebug\narquitectura\n\ndocumentación\n\ntest unitarios\n\norganizar ideas\n\n…\n(y mil cosas más)"
   },
   {
     "objectID": "informatica/inf228-20260326.html#y-lo-estás-haciendo-solo",
@@ -75,13 +75,6 @@
     "title": "Talks",
     "section": "¿Qué es un Agente AI?",
     "text": "¿Qué es un Agente AI?"
-  },
-  {
-    "objectID": "informatica/inf228-20260326.html#qué-es-cursor",
-    "href": "informatica/inf228-20260326.html#qué-es-cursor",
-    "title": "Talks",
-    "section": "¿Qué es Cursor?",
-    "text": "¿Qué es Cursor?"
   },
   {
     "objectID": "informatica/inf228-20260326.html#pequeño-ejemplo",
