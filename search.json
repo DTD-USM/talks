@@ -1,5 +1,124 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎓 Presentaciones",
+    "section": "",
+    "text": "¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\n\nPresentaciones relacionadas con el departamento de informática.\nPresentaciones: Charla-INF228 · Charla-INF236"
+  },
+  {
+    "objectID": "index.html#cursos",
+    "href": "index.html#cursos",
+    "title": "🎓 Presentaciones",
+    "section": "",
+    "text": "Presentaciones relacionadas con el departamento de informática.\nPresentaciones: Charla-INF228 · Charla-INF236"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#inf236",
+    "href": "informatica/inf236-20260426.html#inf236",
+    "title": "Talks",
+    "section": "",
+    "text": "Diseño de Software para MLE Del modelo al sistema\n\nFrancisco Alfaro Medina  Valeska Canales Pozo  Mario Navarrete Purcell"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#flujo-en-mle",
+    "href": "informatica/inf236-20260426.html#flujo-en-mle",
+    "title": "Talks",
+    "section": "Flujo en MLE",
+    "text": "Flujo en MLE"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#pero-la-realidad",
+    "href": "informatica/inf236-20260426.html#pero-la-realidad",
+    "title": "Talks",
+    "section": "Pero LA REALIDAD",
+    "text": "Pero LA REALIDAD\n\n\n\n\n¿Paso a producción?\n¿qué pasa si falla?\n¿cómo lo versiono?\n¿cómo lo audito?\n…\n(y mil cosas más)"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#unifies-extends-1",
+    "href": "informatica/inf236-20260426.html#unifies-extends-1",
+    "title": "Talks",
+    "section": "",
+    "text": "El modelo no es el problema"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#unifies-extends-2",
+    "href": "informatica/inf236-20260426.html#unifies-extends-2",
+    "title": "Talks",
+    "section": "",
+    "text": "El modelo no es el problema\n\n\nEl diseño del sistema es el problema"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#para-eso-está-inf236",
+    "href": "informatica/inf236-20260426.html#para-eso-está-inf236",
+    "title": "Talks",
+    "section": "Para eso está INF236!",
+    "text": "Para eso está INF236!"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#objetivos-del-estudio",
+    "href": "informatica/inf236-20260426.html#objetivos-del-estudio",
+    "title": "Talks",
+    "section": "Objetivos del Estudio",
+    "text": "Objetivos del Estudio\n\n\n\n\n\n\n\n¿Qué es Machine Learning y cómo funciona?\n¿Por qué el diseño del sistema importa más que el modelo?\nINF-236 en acción: patrones, capas y casos de uso en ML.\nCaso real: SAT-E en producción en UTFSM."
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#qué-es-el-mle",
+    "href": "informatica/inf236-20260426.html#qué-es-el-mle",
+    "title": "Talks",
+    "section": "¿Qué es el MLE?",
+    "text": "¿Qué es el MLE?"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#los-ingredientes-de-ml",
+    "href": "informatica/inf236-20260426.html#los-ingredientes-de-ml",
+    "title": "Talks",
+    "section": "Los ingredientes de ML",
+    "text": "Los ingredientes de ML\n\n\n\n\n Datos Ejemplos históricos de los que aprender\n\n\n\n Features Las variables que describen cada ejemplo\n\n\n\n Modelo La función que aprende el patrón"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#ciclo-de-vida",
+    "href": "informatica/inf236-20260426.html#ciclo-de-vida",
+    "title": "Talks",
+    "section": "Ciclo de Vida",
+    "text": "Ciclo de Vida"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#solución-utilizada",
+    "href": "informatica/inf236-20260426.html#solución-utilizada",
+    "title": "Talks",
+    "section": "Solución utilizada …",
+    "text": "Solución utilizada …"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#ejemplo-sate",
+    "href": "informatica/inf236-20260426.html#ejemplo-sate",
+    "title": "Talks",
+    "section": "Ejemplo: SATE",
+    "text": "Ejemplo: SATE"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#pequeño-ejemplo",
+    "href": "informatica/inf236-20260426.html#pequeño-ejemplo",
+    "title": "Talks",
+    "section": "Pequeño Ejemplo",
+    "text": "Pequeño Ejemplo"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#conclusiones",
+    "href": "informatica/inf236-20260426.html#conclusiones",
+    "title": "Talks",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "informatica/inf236-20260426.html#gracias-por-participar",
+    "href": "informatica/inf236-20260426.html#gracias-por-participar",
+    "title": "Talks",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: transformaciondigital.usm.cl/dtd/"
+  },
+  {
     "objectID": "informatica/inf228-20260326.html#inf228",
     "href": "informatica/inf228-20260326.html#inf228",
     "title": "Talks",
@@ -89,19 +208,5 @@
     "title": "Talks",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: transformaciondigital.usm.cl/dtd/"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "🎓 Presentaciones",
-    "section": "",
-    "text": "¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\n\nAgentes de inteligencia artificial y gestión del cambio tecnológico en el contexto universitario.\nPresentaciones: Charla-20260326"
-  },
-  {
-    "objectID": "index.html#diplomados",
-    "href": "index.html#diplomados",
-    "title": "🎓 Presentaciones",
-    "section": "",
-    "text": "Agentes de inteligencia artificial y gestión del cambio tecnológico en el contexto universitario.\nPresentaciones: Charla-20260326"
   }
 ]

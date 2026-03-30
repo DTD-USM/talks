@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DTD-USM.github.io/talks/informatica/inf228-20260326.html</loc>
-    <lastmod>2026-03-26T00:55:52.960Z</lastmod>
+    <loc>https://DTD-USM.github.io/talks/index.html</loc>
+    <lastmod>2026-03-30T19:34:47.045Z</lastmod>
   </url>
   <url>
-    <loc>https://DTD-USM.github.io/talks/index.html</loc>
-    <lastmod>2026-03-26T00:55:52.503Z</lastmod>
+    <loc>https://DTD-USM.github.io/talks/informatica/inf236-20260426.html</loc>
+    <lastmod>2026-03-30T19:34:47.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DTD-USM.github.io/talks/informatica/inf228-20260326.html</loc>
+    <lastmod>2026-03-30T19:34:47.595Z</lastmod>
   </url>
 </urlset>

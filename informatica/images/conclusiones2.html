@@ -1,0 +1,73 @@
+
+<style>
+  .conc-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; padding:8px 0; }
+  .conc-card { background:#16213e; border:0.5px solid #2a3a5c; border-radius:12px; padding:18px 20px; display:flex; gap:14px; align-items:flex-start; opacity:0; transform:translateY(12px); animation:cap 0.4s ease forwards; }
+  .conc-card:nth-child(1){animation-delay:0.05s}
+  .conc-card:nth-child(2){animation-delay:0.18s}
+  .conc-card:nth-child(3){animation-delay:0.31s}
+  .conc-card:nth-child(4){animation-delay:0.44s}
+  @keyframes cap { to{opacity:1;transform:translateY(0)} }
+  .conc-icon { width:36px;height:36px;border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center; }
+  .conc-icon svg { width:18px;height:18px; }
+  .ci-teal   { background:#0f2e24; }
+  .ci-purple { background:#1e1a3a; }
+  .ci-amber  { background:#2a1e08; }
+  .ci-coral  { background:#2e1210; }
+  .conc-tag { display:inline-block;font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;margin-bottom:6px; }
+  .ct-teal   { background:#0f2e24;color:#5DCAA5; }
+  .ct-purple { background:#1e1a3a;color:#AFA9EC; }
+  .ct-amber  { background:#2a1e08;color:#EF9F27; }
+  .ct-coral  { background:#2e1210;color:#F0997B; }
+  .conc-h { font-size:13px;font-weight:600;color:#e6f1ff;margin-bottom:4px;line-height:1.3; }
+  .conc-p { font-size:11.5px;color:#8892b0;line-height:1.55; }
+  .conc-p code { font-family:monospace;font-size:11px;background:#0F1620;color:#9CE0F6;padding:1px 4px;border-radius:3px; }
+</style>
+<div style="background:#0F1620;padding:24px 20px;border-radius:12px;">
+<div class="conc-grid">
+
+  <div class="conc-card">
+    <div class="conc-icon ci-teal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#5DCAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    </div>
+    <div>
+      <span class="conc-tag ct-teal">ML en producción</span>
+      <div class="conc-h">El modelo es solo el inicio</div>
+      <p class="conc-p">Un sistema ML productivo requiere capas de datos, modelo y API bien separadas. Sin diseño, el 90% de los proyectos no sobrevive más de 6 meses.</p>
+    </div>
+  </div>
+
+  <div class="conc-card">
+    <div class="conc-icon ci-purple">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#AFA9EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+    </div>
+    <div>
+      <span class="conc-tag ct-purple">INF-236 aplicado</span>
+      <div class="conc-h">Los patrones que ya conocen</div>
+      <p class="conc-p"><code>Strategy</code> para intercambiar modelos. <code>Repository</code> para abstraer fuentes. <code>Pipeline</code> para separar etapas. Todo INF-236 aparece en ML real.</p>
+    </div>
+  </div>
+
+  <div class="conc-card">
+    <div class="conc-icon ci-amber">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#EF9F27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+    </div>
+    <div>
+      <span class="conc-tag ct-amber">Kedro + MLflow</span>
+      <div class="conc-h">El stack que lo hace posible</div>
+      <p class="conc-p">Kedro impone separación de capas. MLflow da trazabilidad. FastAPI expone el modelo. Diseño de software hecho herramienta.</p>
+    </div>
+  </div>
+
+  <div class="conc-card">
+    <div class="conc-icon ci-coral">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#F0997B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    </div>
+    <div>
+      <span class="conc-tag ct-coral">SAT-E · UTFSM</span>
+      <div class="conc-h">Caso real, impacto real</div>
+      <p class="conc-p">Tres generaciones <code>M1/M2/M3</code> conviviendo sin reescribir el sistema. Eso es lo que el buen diseño hace posible — hoy, en su universidad.</p>
+    </div>
+  </div>
+
+</div>
+</div>
