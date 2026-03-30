@@ -9,13 +9,11 @@ format:
 
 ¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
 
-## Diplomados
+## Cursos
 
 ::: card
-### Feria de Software (INF228)
+### Departamento de Informatica 
 
-Agentes de inteligencia artificial y gestión del cambio tecnológico en el contexto universitario.\
-**Presentaciones:** [Charla-20260326](informatica/inf228-20260326.html) 
+Presentaciones relacionadas con el departamento de informática. \
+**Presentaciones:** [Charla-INF228](informatica/inf228-20260326.html) · [Charla-INF236](informatica/inf236-20260426.html)
 :::
-
-

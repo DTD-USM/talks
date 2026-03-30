@@ -17,22 +17,17 @@ filters:
 
 ##  {#inf228 data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
-
-
-[Ya no programas solo]{.custom-title}
-[Cómo usar agentes de IA en tu proyecto]{.custom-subtitle}
+[Ya no programas solo]{.custom-title} [Cómo usar agentes de IA en tu proyecto]{.custom-subtitle}
 
 <br>
 
 [Francisco Alfaro Medina <br> Valeska Canales Pozo <br> Mario Navarrete Purcell]{.custom-author}
 
-
-
 ------------------------------------------------------------------------
 
-##  { background-opacity="0.25" transition="zoom"}
+##  {background-opacity="0.25" transition="zoom"}
 
-::: r-stack
+::::: r-stack
 ::: {.fragment .fade-in-then-out}
 <iframe src="images/dtd.html" width="1200" height="530" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
@@ -40,31 +35,26 @@ filters:
 :::
 
 ::: fragment
-![](images/dtd.png){ .fade-in-then-out fig-align="center" width="80%"}
-
+![](images/dtd.png){.fade-in-then-out fig-align="center" width="80%"}
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
-
-##  Programar es fácil { background-opacity="0.25" transition="zoom"}
+## Programar es fácil {background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
 ![](images/perro.png){.fragment .fade-in-then-out fig-align="center" width="40%"}
 :::
 
-
 ------------------------------------------------------------------------
 
-## Pero ... todo lo demás { background-opacity="0.25" transition="fade"}
-
+## Pero ... todo lo demás {background-opacity="0.25" transition="fade"}
 
 <br>
 
-::: columns
-::: {.column width="30%" .incremental} 
-
+::::: columns
+::: {.column .incremental width="30%"}
 -   debug
 -   arquitectura\
 -   documentación\
@@ -74,20 +64,18 @@ filters:
 -   *(y mil cosas más)*
 :::
 
-::: {.column width="70%" .fragment}
+::: {.column .fragment width="70%"}
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmEycWUyeGFsZ2xrZjN5NXJ3eHB1eWExcm9sbDMxb3B1cW9nbHF5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif){width="60%" fig-align="center"}
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
-
-## Y lo estás haciendo solo { background-opacity="0.25" transition="fade"}
+## Y lo estás haciendo solo {background-opacity="0.25" transition="fade"}
 
 <br>
 
 ![](images/solo.png){width="50%" fig-align="center"}
-
 
 ------------------------------------------------------------------------
 
@@ -97,112 +85,114 @@ filters:
 Ya no compites **solo**
 :::
 
-
-
 ##  {#unifies-extends-2 .centered data-menu-title="Unifies and extends 2" background-color="#0F1620" auto-animate="true"}
 
 ::: {style="margin-top: 100px; font-size: 2em; color: #75AADB"}
 Ya no compites **solo**
 :::
 
-
 ::: large
 Compites contra developers con IA
 :::
 
-::: {.fragment }
+::: fragment
 ![](images/competencia.png){width="70%" fig-align="center"}
 :::
 
 ------------------------------------------------------------------------
 
-## La Mayoría de los developers usa IA { background-opacity="0.25" transition="zoom"}
+## La Mayoría de los developers usa IA {background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
 <br>
 
 ![](https://github.blog/wp-content/uploads/2025/10/octoverse-2025-80-percent-of-new-devs-use-copilot-in-week-one.png?w=768){.fragment .fade-in-then-out fig-align="center"}
 
-
 ![](https://scontent.fkna1-1.fna.fbcdn.net/v/t39.30808-6/585520986_1302389268597657_336743833651807444_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeF7SEgsCwCsoQghD6x_Hv39wEiw77fVupnASLDvt9W6mRMdeK9nMEK3F-_gOY041nk&_nc_ohc=svRjUqt9jtoQ7kNvwF6BOPX&_nc_oc=AdrjR2yE8MjdZf4thmQc8Co8CH2dQ90nDnpFpH_ZDg-WtX6hjcdW-y_z7Zwtt4eOlgU&_nc_zt=23&_nc_ht=scontent.fkna1-1.fna&_nc_gid=_WzKmuQa5Hyp4qUoqo_xDw&_nc_ss=7a32e&oh=00_AfzCJ586u24wGMrOr5ZVz6tlukThr8REo4bClvm3bSAdfw&oe=69C645FE){.fragment fig-align="center"}
 :::
 
 ------------------------------------------------------------------------
 
-## <span style="font-size: 3.5rem;">No es aprender IA ... Es trabajar distinto</span>   { background-opacity="0.25" transition="zoom"}
+## [No es aprender IA ... Es trabajar distinto]{style="font-size: 3.5rem;"} {background-opacity="0.25" transition="zoom"}
 
 <br><br>
 
-::: columns
-::: {.column width="33%"}
+::::::::: columns
+:::: {.column width="33%"}
 ::: {style="text-align:center;"}
-<img src="images/github.png" width="200px" height="200px"/><br>
-**Como GitHub**\
+<img src="images/github.png" width="200px" height="200px"/><br> **Como GitHub**\
 *La IA es un colaborador más en tu flujo de trabajo*
 :::
-:::
+::::
 
-::: {.column .fragment width="34%"}
+:::: {.column .fragment width="34%"}
 ::: {style="text-align:center;"}
-<img src="images/docker.png" width="200px" height="200px"/><br>
-**Como Docker**\
+<img src="images/docker.png" width="200px" height="200px"/><br> **Como Docker**\
 *Prompts como Dockerfiles: reproducibles*
 :::
-:::
+::::
 
-::: {.column .fragment width="33%"}
+:::: {.column .fragment width="33%"}
 ::: {style="text-align:center;"}
-<img src="images/so.webp" width="200px" height="200px"/><br>
-**Como Stack Overflow**\
+<img src="images/so.webp" width="200px" height="200px"/><br> **Como Stack Overflow**\
 *El skill sigue siendo el mismo: saber qué preguntar*
 :::
-:::
-:::
+::::
+:::::::::
 
 ------------------------------------------------------------------------
 
-## Si dos personas saben lo mismo { transition="fade"}
+## Si dos personas saben lo mismo {transition="fade"}
 
 <br>
 
-::: columns
-::: {.column width="50%"}
-::: {.fragment .fade-in-then-semi-out}
+::::::::: columns
+::::: {.column width="50%"}
+:::: {.fragment .fade-in-then-semi-out}
 ::: {style="text-align:center; font-size:4em;"}
 🧑‍💻
 :::
-<p style="text-align:center; font-size:1.2em;">Developer A<br><span style="font-size:0.7em; color:#aaa;">sin herramientas de IA</span></p>
-:::
-:::
 
-::: {.column width="50%"}
-::: {.fragment}
+<p style="text-align:center; font-size:1.2em;">
+
+Developer A<br>[sin herramientas de IA]{style="font-size:0.7em; color:#aaa;"}
+
+</p>
+::::
+:::::
+
+::::: {.column width="50%"}
+:::: fragment
 ::: {style="text-align:center; font-size:4em;"}
 👩‍💻⚡
 :::
-<p style="text-align:center; font-size:1.2em;">Developer B<br><span style="font-size:0.7em; color:#75AADB;">resuelve en la mitad del tiempo</span></p>
-:::
-:::
-:::
+
+<p style="text-align:center; font-size:1.2em;">
+
+Developer B<br>[resuelve en la mitad del tiempo]{style="font-size:0.7em; color:#75AADB;"}
+
+</p>
+::::
+:::::
+:::::::::
 
 <br>
 
-::: {.fragment}
-<div style="text-align:center; font-size:2em; font-weight:bold; color:#9CE0F6;">
+:::: fragment
+::: {style="text-align:center; font-size:2em; font-weight:bold; color:#9CE0F6;"}
 ¿a quién eliges?
-</div>
 :::
+::::
 
 ------------------------------------------------------------------------
 
-## No necesitas nada especial { background-opacity="0.25" transition="fade"}
+## No necesitas nada especial {background-opacity="0.25" transition="fade"}
 
 <br>
 
-::: {style="text-align: center;" .fragment}
+::: {.fragment style="text-align: center;"}
 <img src="images/demo.svg" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -215,53 +205,36 @@ Compites contra developers con IA
 
 ![](images/cursor-education.png){.fragment .fade-in-then-out fig-align="center"}
 
-![](images/claude-education.png){.fragment fig-align="center"} 
+![](images/claude-education.png){.fragment fig-align="center"}
 :::
-
-
-
-
 
 # <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-
-## ¿Qué es un Agente AI? { background-opacity="0.25" transition="zoom"}
+## ¿Qué es un Agente AI? {background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
 ![](images/agentes1.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
 :::
 
-
-
 ##  {background-opacity="0.25" transition="fade"}
 
-
-
 ::: r-stack
-![](images/ai-agent.gif){ .fade-in-then-out fig-align="center" width="55%"}
-
+![](images/ai-agent.gif){.fade-in-then-out fig-align="center" width="55%"}
 :::
-
 
 ##  {background-opacity="0.25" transition="fade"}
 
 ::: r-stack
-![](images/agentes-diagrama.jpg){ .fade-in-then-out fig-align="center" width="70%"}
-
+![](images/agentes-diagrama.jpg){.fade-in-then-out fig-align="center" width="70%"}
 :::
 
-
-
-## Pequeño Ejemplo { background-opacity="0.25" transition="fade"}
-
+## Pequeño Ejemplo {background-opacity="0.25" transition="fade"}
 
 ::: r-stack
 ![](images/demotime.gif){.fragment .fade-in-then-out fig-align="center" width="100%"}
-
 :::
 
-
-## {background-opacity="0.25" transition="fade"}
+##  {background-opacity="0.25" transition="fade"}
 
 <br><br>
 
@@ -269,18 +242,11 @@ Compites contra developers con IA
 
 </iframe>
 
-
-
 # Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
+## 🎉 ¡Gracias por Participar! {background-opacity="0.25"}
 
-
-
-
-
-## 🎉 ¡Gracias por Participar! { background-opacity="0.25"}
-
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -294,10 +260,9 @@ Compites contra developers con IA
 ::: {.column width="50%" align="center"}
 ![](images/qr_inf228.png){width="400"}
 :::
-:::
+:::::
 
 > 🔗 Nuestro Sitio Web: [transformaciondigital.usm.cl/dtd/](https://transformaciondigital.usm.cl/dtd/)
-
 
 ```{=html}
 <style>
