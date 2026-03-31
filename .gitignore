@@ -60,3 +60,4 @@ comunidad_2025/
 
 _freeze/
 **/*.quarto_ipynb
+.DS_Store

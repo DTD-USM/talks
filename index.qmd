@@ -5,15 +5,13 @@ format:
     toc: false
 ---
 
-# Lista de Presentaciones
-
 ¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
 
-## Cursos
+## USM
 
 ::: card
-### Departamento de Informatica 
+### Departamento de Informatica
 
-Presentaciones relacionadas con el departamento de informática. \
-**Presentaciones:** [Charla-INF228](informatica/inf228-20260326.html) · [Charla-INF236](informatica/inf236-20260426.html)
+Presentaciones relacionadas con el departamento de informática.\
+**Presentaciones:** [Agentes AI](informatica/inf228v1.html) · [MLOPS](informatica/inf236v1.html) · [Git+GitHub](informatica/inf236v2.html)
 :::
