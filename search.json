@@ -4,207 +4,298 @@
     "href": "index.html",
     "title": "🎓 Presentaciones",
     "section": "",
-    "text": "¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\n\nPresentaciones relacionadas con el departamento de informática.\nPresentaciones: Charla-INF228 · Charla-INF236"
+    "text": "¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos."
   },
   {
-    "objectID": "index.html#cursos",
-    "href": "index.html#cursos",
+    "objectID": "index.html#usm",
+    "href": "index.html#usm",
     "title": "🎓 Presentaciones",
-    "section": "",
-    "text": "Presentaciones relacionadas con el departamento de informática.\nPresentaciones: Charla-INF228 · Charla-INF236"
+    "section": "USM",
+    "text": "USM\n\nDepartamento de Informatica\nPresentaciones relacionadas con el departamento de informática.\nPresentaciones: Agentes AI · MLOPS · Git+GitHub"
   },
   {
-    "objectID": "informatica/inf236-20260426.html#inf236",
-    "href": "informatica/inf236-20260426.html#inf236",
-    "title": "Talks",
-    "section": "",
-    "text": "Diseño de Software para MLE Del modelo al sistema\n\nFrancisco Alfaro Medina  Valeska Canales Pozo  Mario Navarrete Purcell"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#flujo-en-mle",
-    "href": "informatica/inf236-20260426.html#flujo-en-mle",
-    "title": "Talks",
-    "section": "Flujo en MLE",
-    "text": "Flujo en MLE"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#pero-la-realidad",
-    "href": "informatica/inf236-20260426.html#pero-la-realidad",
-    "title": "Talks",
-    "section": "Pero LA REALIDAD",
-    "text": "Pero LA REALIDAD\n\n\n\n\n¿Paso a producción?\n¿qué pasa si falla?\n¿cómo lo versiono?\n¿cómo lo audito?\n…\n(y mil cosas más)"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#unifies-extends-1",
-    "href": "informatica/inf236-20260426.html#unifies-extends-1",
-    "title": "Talks",
-    "section": "",
-    "text": "El modelo no es el problema"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#unifies-extends-2",
-    "href": "informatica/inf236-20260426.html#unifies-extends-2",
-    "title": "Talks",
-    "section": "",
-    "text": "El modelo no es el problema\n\n\nEl diseño del sistema es el problema"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#para-eso-está-inf236",
-    "href": "informatica/inf236-20260426.html#para-eso-está-inf236",
-    "title": "Talks",
-    "section": "Para eso está INF236!",
-    "text": "Para eso está INF236!"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#objetivos-del-estudio",
-    "href": "informatica/inf236-20260426.html#objetivos-del-estudio",
-    "title": "Talks",
-    "section": "Objetivos del Estudio",
-    "text": "Objetivos del Estudio\n\n\n\n\n\n\n\n¿Qué es Machine Learning y cómo funciona?\n¿Por qué el diseño del sistema importa más que el modelo?\nINF-236 en acción: patrones, capas y casos de uso en ML.\nCaso real: SAT-E en producción en UTFSM."
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#qué-es-el-mle",
-    "href": "informatica/inf236-20260426.html#qué-es-el-mle",
-    "title": "Talks",
-    "section": "¿Qué es el MLE?",
-    "text": "¿Qué es el MLE?"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#los-ingredientes-de-ml",
-    "href": "informatica/inf236-20260426.html#los-ingredientes-de-ml",
-    "title": "Talks",
-    "section": "Los ingredientes de ML",
-    "text": "Los ingredientes de ML\n\n\n\n\n Datos Ejemplos históricos de los que aprender\n\n\n\n Features Las variables que describen cada ejemplo\n\n\n\n Modelo La función que aprende el patrón"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#ciclo-de-vida",
-    "href": "informatica/inf236-20260426.html#ciclo-de-vida",
-    "title": "Talks",
-    "section": "Ciclo de Vida",
-    "text": "Ciclo de Vida"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#solución-utilizada",
-    "href": "informatica/inf236-20260426.html#solución-utilizada",
-    "title": "Talks",
-    "section": "Solución utilizada …",
-    "text": "Solución utilizada …"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#ejemplo-sate",
-    "href": "informatica/inf236-20260426.html#ejemplo-sate",
-    "title": "Talks",
-    "section": "Ejemplo: SATE",
-    "text": "Ejemplo: SATE"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#pequeño-ejemplo",
-    "href": "informatica/inf236-20260426.html#pequeño-ejemplo",
-    "title": "Talks",
-    "section": "Pequeño Ejemplo",
-    "text": "Pequeño Ejemplo"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#conclusiones",
-    "href": "informatica/inf236-20260426.html#conclusiones",
-    "title": "Talks",
-    "section": "Conclusiones",
-    "text": "Conclusiones"
-  },
-  {
-    "objectID": "informatica/inf236-20260426.html#gracias-por-participar",
-    "href": "informatica/inf236-20260426.html#gracias-por-participar",
-    "title": "Talks",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: transformaciondigital.usm.cl/dtd/"
-  },
-  {
-    "objectID": "informatica/inf228-20260326.html#inf228",
-    "href": "informatica/inf228-20260326.html#inf228",
+    "objectID": "informatica/inf228v1.html#inf228",
+    "href": "informatica/inf228v1.html#inf228",
     "title": "Talks",
     "section": "",
     "text": "Ya no programas solo Cómo usar agentes de IA en tu proyecto\n\nFrancisco Alfaro Medina  Valeska Canales Pozo  Mario Navarrete Purcell"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#programar-es-fácil",
-    "href": "informatica/inf228-20260326.html#programar-es-fácil",
+    "objectID": "informatica/inf228v1.html#programar-es-fácil",
+    "href": "informatica/inf228v1.html#programar-es-fácil",
     "title": "Talks",
     "section": "Programar es fácil",
     "text": "Programar es fácil"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#pero-todo-lo-demás",
-    "href": "informatica/inf228-20260326.html#pero-todo-lo-demás",
+    "objectID": "informatica/inf228v1.html#pero-todo-lo-demás",
+    "href": "informatica/inf228v1.html#pero-todo-lo-demás",
     "title": "Talks",
     "section": "Pero … todo lo demás",
     "text": "Pero … todo lo demás\n\n\n\n\ndebug\narquitectura\n\ndocumentación\n\ntest unitarios\n\norganizar ideas\n\n…\n(y mil cosas más)"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#y-lo-estás-haciendo-solo",
-    "href": "informatica/inf228-20260326.html#y-lo-estás-haciendo-solo",
+    "objectID": "informatica/inf228v1.html#y-lo-estás-haciendo-solo",
+    "href": "informatica/inf228v1.html#y-lo-estás-haciendo-solo",
     "title": "Talks",
     "section": "Y lo estás haciendo solo",
     "text": "Y lo estás haciendo solo"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#unifies-extends-1",
-    "href": "informatica/inf228-20260326.html#unifies-extends-1",
+    "objectID": "informatica/inf228v1.html#unifies-extends-1",
+    "href": "informatica/inf228v1.html#unifies-extends-1",
     "title": "Talks",
     "section": "",
     "text": "Ya no compites solo"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#unifies-extends-2",
-    "href": "informatica/inf228-20260326.html#unifies-extends-2",
+    "objectID": "informatica/inf228v1.html#unifies-extends-2",
+    "href": "informatica/inf228v1.html#unifies-extends-2",
     "title": "Talks",
     "section": "",
     "text": "Ya no compites solo\n\n\nCompites contra developers con IA"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#la-mayoría-de-los-developers-usa-ia",
-    "href": "informatica/inf228-20260326.html#la-mayoría-de-los-developers-usa-ia",
+    "objectID": "informatica/inf228v1.html#la-mayoría-de-los-developers-usa-ia",
+    "href": "informatica/inf228v1.html#la-mayoría-de-los-developers-usa-ia",
     "title": "Talks",
     "section": "La Mayoría de los developers usa IA",
     "text": "La Mayoría de los developers usa IA"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#no-es-aprender-ia-es-trabajar-distinto",
-    "href": "informatica/inf228-20260326.html#no-es-aprender-ia-es-trabajar-distinto",
+    "objectID": "informatica/inf228v1.html#no-es-aprender-ia-es-trabajar-distinto",
+    "href": "informatica/inf228v1.html#no-es-aprender-ia-es-trabajar-distinto",
     "title": "Talks",
     "section": "No es aprender IA … Es trabajar distinto",
     "text": "No es aprender IA … Es trabajar distinto\n\n\n\n\n Como GitHub\nLa IA es un colaborador más en tu flujo de trabajo\n\n\n\n Como Docker\nPrompts como Dockerfiles: reproducibles\n\n\n\n Como Stack Overflow\nEl skill sigue siendo el mismo: saber qué preguntar"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#si-dos-personas-saben-lo-mismo",
-    "href": "informatica/inf228-20260326.html#si-dos-personas-saben-lo-mismo",
+    "objectID": "informatica/inf228v1.html#si-dos-personas-saben-lo-mismo",
+    "href": "informatica/inf228v1.html#si-dos-personas-saben-lo-mismo",
     "title": "Talks",
     "section": "Si dos personas saben lo mismo",
     "text": "Si dos personas saben lo mismo\n\n\n\n\n\n🧑‍💻\n\n\nDeveloper Asin herramientas de IA\n\n\n\n\n\n👩‍💻⚡\n\n\nDeveloper Bresuelve en la mitad del tiempo\n\n\n\n\n\n\n¿a quién eliges?"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#no-necesitas-nada-especial",
-    "href": "informatica/inf228-20260326.html#no-necesitas-nada-especial",
+    "objectID": "informatica/inf228v1.html#no-necesitas-nada-especial",
+    "href": "informatica/inf228v1.html#no-necesitas-nada-especial",
     "title": "Talks",
     "section": "No necesitas nada especial",
     "text": "No necesitas nada especial"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#qué-es-un-agente-ai",
-    "href": "informatica/inf228-20260326.html#qué-es-un-agente-ai",
+    "objectID": "informatica/inf228v1.html#qué-es-un-agente-ai",
+    "href": "informatica/inf228v1.html#qué-es-un-agente-ai",
     "title": "Talks",
     "section": "¿Qué es un Agente AI?",
     "text": "¿Qué es un Agente AI?"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#pequeño-ejemplo",
-    "href": "informatica/inf228-20260326.html#pequeño-ejemplo",
+    "objectID": "informatica/inf228v1.html#pequeño-ejemplo",
+    "href": "informatica/inf228v1.html#pequeño-ejemplo",
     "title": "Talks",
     "section": "Pequeño Ejemplo",
     "text": "Pequeño Ejemplo"
   },
   {
-    "objectID": "informatica/inf228-20260326.html#gracias-por-participar",
-    "href": "informatica/inf228-20260326.html#gracias-por-participar",
+    "objectID": "informatica/inf228v1.html#gracias-por-participar",
+    "href": "informatica/inf228v1.html#gracias-por-participar",
+    "title": "Talks",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: transformaciondigital.usm.cl/dtd/"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#inf236",
+    "href": "informatica/inf236v2.html#inf236",
+    "title": "Talks",
+    "section": "",
+    "text": "Control de Versiones con Git Del caos al orden\n\nFrancisco Alfaro Medina  Valeska Canales Pozo  Mario Navarrete Purcell"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#trabajar-sin-git",
+    "href": "informatica/inf236v2.html#trabajar-sin-git",
+    "title": "Talks",
+    "section": "Trabajar sin Git",
+    "text": "Trabajar sin Git"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#el-problema-real",
+    "href": "informatica/inf236v2.html#el-problema-real",
+    "title": "Talks",
+    "section": "El problema real",
+    "text": "El problema real\n\n\n\n\n\ninforme_final.docx\ninforme_final_v2.docx\ninforme_final_BUENO.docx\ninforme_final_ESTE.docx\ninforme_final_de_verdad.docx\n…\n(y mil archivos más)"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#unifies-extends-1",
+    "href": "informatica/inf236v2.html#unifies-extends-1",
+    "title": "Talks",
+    "section": "",
+    "text": "El problema no es el archivo"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#unifies-extends-2",
+    "href": "informatica/inf236v2.html#unifies-extends-2",
+    "title": "Talks",
+    "section": "",
+    "text": "El problema no es el archivo\n\n\nEs no tener control de versiones"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#para-eso-existe-git-github",
+    "href": "informatica/inf236v2.html#para-eso-existe-git-github",
+    "title": "Talks",
+    "section": "Para eso existe Git + GitHub",
+    "text": "Para eso existe Git + GitHub"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#objetivos-del-estudio",
+    "href": "informatica/inf236v2.html#objetivos-del-estudio",
+    "title": "Talks",
+    "section": "Objetivos del Estudio",
+    "text": "Objetivos del Estudio\n\n\n\n\n\n\n\n¿Qué es Git y cómo piensa?\nRepositorios y su anatomía en GitHub.\nBranches + PR: flujo real de trabajo.\nGitHub Flow: cómo colaborar sin pisarse."
+  },
+  {
+    "objectID": "informatica/inf236v2.html#cómo-piensa-git",
+    "href": "informatica/inf236v2.html#cómo-piensa-git",
+    "title": "Talks",
+    "section": "¿Cómo piensa Git?",
+    "text": "¿Cómo piensa Git?"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#los-tres-estados-de-git",
+    "href": "informatica/inf236v2.html#los-tres-estados-de-git",
+    "title": "Talks",
+    "section": "Los tres estados de Git",
+    "text": "Los tres estados de Git\n\n\n\n\n Working Directory Donde editas tus archivos libremente\n\n\n\n Staging Area Lo que prepararás para el próximo commit\n\n\n\n Repository Historial permanente de snapshots"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#el-ciclo-básico",
+    "href": "informatica/inf236v2.html#el-ciclo-básico",
+    "title": "Talks",
+    "section": "El ciclo básico",
+    "text": "El ciclo básico\n\n\n# Ver qué ha cambiado\ngit status\ngit diff\n\n# Preparar cambios (staging)\ngit add archivo.py          \ngit add .                  \n\n# Guardar snapshot (commit)\ngit commit -m \"feat: agregar función de predicción\"\n\n# Sincronizar con GitHub\ngit push origin main\ngit pull origin main"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#pequeño-ejemplo",
+    "href": "informatica/inf236v2.html#pequeño-ejemplo",
+    "title": "Talks",
+    "section": "Pequeño Ejemplo",
+    "text": "Pequeño Ejemplo"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#conclusiones",
+    "href": "informatica/inf236v2.html#conclusiones",
+    "title": "Talks",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "informatica/inf236v2.html#gracias-por-participar",
+    "href": "informatica/inf236v2.html#gracias-por-participar",
+    "title": "Talks",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: transformaciondigital.usm.cl/dtd/"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#inf236",
+    "href": "informatica/inf236v1.html#inf236",
+    "title": "Talks",
+    "section": "",
+    "text": "Diseño de Software para MLE Del modelo al sistema\n\nFrancisco Alfaro Medina  Valeska Canales Pozo  Mario Navarrete Purcell"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#flujo-en-mle",
+    "href": "informatica/inf236v1.html#flujo-en-mle",
+    "title": "Talks",
+    "section": "Flujo en MLE",
+    "text": "Flujo en MLE"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#pero-la-realidad",
+    "href": "informatica/inf236v1.html#pero-la-realidad",
+    "title": "Talks",
+    "section": "Pero LA REALIDAD",
+    "text": "Pero LA REALIDAD\n\n\n\n\n¿Paso a producción?\n¿qué pasa si falla?\n¿cómo lo versiono?\n¿cómo lo audito?\n…\n(y mil cosas más)"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#unifies-extends-1",
+    "href": "informatica/inf236v1.html#unifies-extends-1",
+    "title": "Talks",
+    "section": "",
+    "text": "El modelo no es el problema"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#unifies-extends-2",
+    "href": "informatica/inf236v1.html#unifies-extends-2",
+    "title": "Talks",
+    "section": "",
+    "text": "El modelo no es el problema\n\n\nEl diseño del sistema es el problema"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#para-eso-está-inf236",
+    "href": "informatica/inf236v1.html#para-eso-está-inf236",
+    "title": "Talks",
+    "section": "Para eso está INF236!",
+    "text": "Para eso está INF236!"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#objetivos-del-estudio",
+    "href": "informatica/inf236v1.html#objetivos-del-estudio",
+    "title": "Talks",
+    "section": "Objetivos del Estudio",
+    "text": "Objetivos del Estudio\n\n\n\n\n\n\n\n¿Qué es Machine Learning y cómo funciona?\n¿Por qué el diseño del sistema importa más que el modelo?\nINF-236 en acción: patrones, capas y casos de uso en ML.\nCaso real: SAT-E en producción en UTFSM."
+  },
+  {
+    "objectID": "informatica/inf236v1.html#qué-es-el-mle",
+    "href": "informatica/inf236v1.html#qué-es-el-mle",
+    "title": "Talks",
+    "section": "¿Qué es el MLE?",
+    "text": "¿Qué es el MLE?"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#los-ingredientes-de-ml",
+    "href": "informatica/inf236v1.html#los-ingredientes-de-ml",
+    "title": "Talks",
+    "section": "Los ingredientes de ML",
+    "text": "Los ingredientes de ML\n\n\n\n\n Datos Ejemplos históricos de los que aprender\n\n\n\n Features Las variables que describen cada ejemplo\n\n\n\n Modelo La función que aprende el patrón"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#ciclo-de-vida",
+    "href": "informatica/inf236v1.html#ciclo-de-vida",
+    "title": "Talks",
+    "section": "Ciclo de Vida",
+    "text": "Ciclo de Vida"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#solución-utilizada",
+    "href": "informatica/inf236v1.html#solución-utilizada",
+    "title": "Talks",
+    "section": "Solución utilizada …",
+    "text": "Solución utilizada …"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#ejemplo-sate",
+    "href": "informatica/inf236v1.html#ejemplo-sate",
+    "title": "Talks",
+    "section": "Ejemplo: SATE",
+    "text": "Ejemplo: SATE"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#pequeño-ejemplo",
+    "href": "informatica/inf236v1.html#pequeño-ejemplo",
+    "title": "Talks",
+    "section": "Pequeño Ejemplo",
+    "text": "Pequeño Ejemplo"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#conclusiones",
+    "href": "informatica/inf236v1.html#conclusiones",
+    "title": "Talks",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "informatica/inf236v1.html#gracias-por-participar",
+    "href": "informatica/inf236v1.html#gracias-por-participar",
     "title": "Talks",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: transformaciondigital.usm.cl/dtd/"
